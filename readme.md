@@ -3,7 +3,9 @@
 
 ## Welcome
 
-- **[Link to Exercises (HTML format)](https://microsoftlearning.github.io/Example-Repo/)**
+- **[Link to Networking Exercises (HTML format)](https://microsoftlearning.github.io/Example-Repo/)**
+- 
+- **[Link to Storage Exercises (HTML format)](https://microsoftlearning.github.io/Example-Repo/)**
 
 
 **Are you an MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
