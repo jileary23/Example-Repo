@@ -8,18 +8,18 @@ layout: home
 
 Hyperlinks to each of the lab exercises and demos are listed below.
 
-## Labs
+## Exercise Secure-Networking
 
-{% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
-| Module | Lab |
+{% assign Exercise = site.pages | where_exp:"page", "page.url contains '/Secure-Networking/Exercises'" %}
+| Module | Exercise |
 | --- | --- | 
-{% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
+{% for activity in Exercise  %}| {{ activity.Exercise.module }} | [{{ activity.Exercise.title }}{% if activity.Exercise.type %} - {{ activity.Exercise.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
 
-## Demos
+## Exercise Secure-Storage 
 
-{% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
-| Module | Demo |
+{% assign Exercise = site.pages | where_exp:"page", "page.url contains '/Secure storage/Exercises'" %}
+| Module | Exercise |
 | --- | --- | 
-{% for activity in demos  %}| {{ activity.demo.module }} | [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
+{% for activity in Exercise  %}| {{ activity.Exercise.module }} | [{{ activity.Exercise.title }}{% if activity.Exercise.type %} - {{ activity.Exercise.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
