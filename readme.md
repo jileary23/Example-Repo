@@ -1,5 +1,11 @@
 # INF99X: Sample Course
 
+
+## Welcome
+
+- **[Link to Exercises (HTML format)](https://microsoftlearning.github.io/Example-Repo/)**
+
+
 **Are you an MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 
 ## What are we doing?
